@@ -8,7 +8,11 @@ import views.html.*;
 public class Application extends Controller {
 
     public static Result index() {
-        return ok(index.render("Changes v0"));
+        return ok(authentication.render());
+    }
+
+    public static Result register() {
+        return ok(registration.render());
     }
 
 }
