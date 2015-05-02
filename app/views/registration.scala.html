@@ -32,7 +32,7 @@
       <div id="register" role="main"> 
             <!-- Register section -->
             <h2 id="registerheading" class="accessibility">Registrierung</h2>
-            <form action="login.xhtml" method="post">
+            @helper.form(action = routes.Application.login())
                 <fieldset>
                     <legend>Persönliche Daten</legend>
                     <label for="firstname">Vorname:</label>
@@ -113,7 +113,7 @@
                     <input class="greenlink formlink" type="submit" value="Registrieren" accesskey="s"/>
                     <p id="requiredhint">Mit "*" gekennzeichnete Felder sind Pflichtfelder</p>
                 </fieldset>
-            </form>
+            }
         </div>
 
         <!-- Footer -->
@@ -208,7 +208,7 @@
             }
             
             /*
-             * User Name
+             * Player Name
              */
             $("#username").keyup(function (event){
                 if(hasFormValidation()){

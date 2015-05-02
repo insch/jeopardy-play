@@ -401,7 +401,7 @@ p#requiredhint{
  * Jeopardy Question Selection
  ***********************************/ 
 
-/* User info announcement (correct/positive, wrong/negative) */
+/* Player info announcement (correct/positive, wrong/negative) */
 .user-info {
    width: 85%;
    margin: 0 auto;
