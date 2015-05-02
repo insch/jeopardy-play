@@ -1,0 +1,479 @@
+[
+    { "name": "Web Engineering",
+      "questions": [
+        { "id": 1,
+          "text": "Dies sind gültige HTTP-Methoden",
+          "value": 10,
+          "wrongAnswers": [
+            {	"text" : "Was ist RETRIEVE?" },
+            {	"text" : "Was ist CHECK?" },
+            {	"text" : "Was ist REMOVE?" },
+            {	"text" : "Was ist CREATE?" }
+          ],
+          "rightAnswers": [ // OPTIONS, GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT
+            {	"text" : "Was ist POST?" },
+            {	"text" : "Was ist HEAD?" }
+          ]
+        },
+        { "id": 2,
+          "text": "Dies sind Web Design-Methoden",
+          "value": 10,
+          "wrongAnswers": [
+            {	"text" : "Was ist Regressive shrinkage?" }
+          ],
+          "rightAnswers": [
+            {	"text" : "Was ist Graceful degradation?" },
+            {	"text" : "Was ist Progressive enhancement?" },
+            {	"text" : "Was ist Responsive design?" }
+          ]
+        },
+        { "id": 3,
+          "text": "Diese Elemente wurden in HTML5 neu eingeführt",
+          "value": 20,
+          "wrongAnswers": [
+            {	"text" : "Was ist fieldset?" },
+            {	"text" : "Was ist caption?" },
+            {	"text" : "Was ist textarea?" }
+          ],
+          "rightAnswers": [ 
+            {	"text" : "Was ist canvas?" },
+            {	"text" : "Was ist header?" },
+            {	"text" : "Was ist meter?" }
+          ]
+        },
+        { "id": 4,
+          "text": "Diese Prinzipien gehören zu den \"Web Accessibility Guidelines\"",
+          "value": 20,
+          "wrongAnswers": [
+            {	"text" : "Was ist Clear?" },
+            {	"text" : "Was ist Maintainable?" },
+            {	"text" : "Was ist Observable?" },
+            {	"text" : "Was ist Implementable?" }
+          ],
+          "rightAnswers": [ // Perceivable, Operable, Understandable, Robust
+            {	"text" : "Was ist Perceivable?" },
+            {	"text" : "Was ist Robust?" }
+          ]
+        },
+        { "id": 5,
+          "text": "Diese Technologien kommen im \"Semantic Web\" zum Einsatz",
+          "value": 30,
+          "wrongAnswers": [
+            {	"text" : "Was ist SQL?" },
+            {	"text" : "Was ist CAT?" }
+          ],
+          "rightAnswers": [
+            {	"text" : "Was ist RDF?" },
+            {	"text" : "Was ist OWL?" },
+            {	"text" : "Was ist SPARQL?" }
+          ]
+        },
+        { "id": 6,
+          "text": "JavaScript.",
+          "value": 40,
+          "wrongAnswers": [
+            {	"text" : "Was hat statische Typen?" },
+            {	"text" : "Was läuft immer server-seitig?" },
+            {	"text" : "Was hat Klassen und Objekte?" }
+          ],
+          "rightAnswers": [
+            {	"text" : "Was ist objekt-orientiert?" },
+            {	"text" : "Was wird interpretiert?" },
+            {	"text" : "Was hat dynamische Typen?" }
+          ]
+        },
+        { "id": 7,
+          "text": "Diese Sprachen sind ECMAScript-Implementierungen",
+          "value": 50,
+          "wrongAnswers": [
+            {	"text" : "Was ist F-Script?" },
+            {	"text" : "Was ist AppleScript?" },
+            {	"text" : "Was ist VBScript?" }
+          ],
+          "rightAnswers": [
+            {	"text" : "Was ist JScript?" },
+            {	"text" : "Was ist JavaScript?" },
+            {	"text" : "Was ist QtScript?" }
+          ]
+        }
+      ]
+    },
+    { "name": "TU Wien",
+      "questions": [
+        { "id": 8,
+          "text": "Diese Standorte hat die TU Wien",
+          "value": 10,
+          "wrongAnswers": [
+            {	"text" : "Was ist die Freyung?" },
+            {	"text" : "Was ist der Universitätsring?" }
+          ],
+          "rightAnswers": [
+            {	"text" : "Was sind die Freihausgründe?" },
+            {	"text" : "Was ist die Favoritenstraße?" }
+          ]
+        },
+        { "id": 9,
+          "text": "Die oder der RektorIn der TU Wien",
+          "value": 10,
+          "wrongAnswers": [
+            {	"text" : "Wer ist Dr. Adalbert Prechtl?" },
+            {	"text" : "Wer ist Mag. Anna Steiger?" },
+            {	"text" : "Wer ist Dr. Peter Skalicky?" }
+          ],
+          "rightAnswers": [ 
+            {	"text" : "Wer ist Dr. Sabine Seidler?" }
+          ]
+        },
+        { "id": 10,
+          "text": "So viele fortgemeldete Studierende hat die TU Wien im SS15?",
+          "value": 20,
+          "wrongAnswers": [
+            {	"text" : "Was ist 15.000 - 20.000?" },
+            {	"text" : "Was ist 10.000 - 15.000?" },
+            {	"text" : "Was ist 20.000 - 25.000?" }
+          ],
+          "rightAnswers": [
+            {	"text" : "Was ist 25.000 - 30.000?" }
+          ]
+        },
+        { "id": 11,
+          "text": "In diesem Jahr wurde TU Wien gegründet",
+          "value": 20,
+          "wrongAnswers": [
+            {	"text" : "Was war 1915?" },
+            {	"text" : "Was war 1955?" },
+            {	"text" : "Was war 1845?" }
+          ],
+          "rightAnswers": [ 
+            {	"text" : "Was war 1815?" }
+          ]
+        },
+        { "id": 12,
+          "text": "Diese Fakultäten gibt es an der TU Wien",
+          "value": 30,
+          "wrongAnswers": [
+            {	"text" : "Was ist Medizin?" }
+          ],
+          "rightAnswers": [ 
+            {	"text" : "Was ist Technische Chemie?" },
+            {	"text" : "Was ist Physik?" },
+            {	"text" : "Was ist Informatik?" }
+          ]
+        },
+        { "id": 13,
+          "text": "Dies sind die Top 3 der belegten Studien an der TU Wien",
+          "value": 40,
+          "wrongAnswers": [
+            {	"text" : "Was ist Bauingenieurwesen?" },
+            {	"text" : "Was ist Maschinenbau?" },
+            {	"text" : "Was ist Wirtschaftsinformatik?" }
+          ],
+          "rightAnswers": [ // http://www.tuwien.ac.at/wir_ueber_uns/zahlen_und_fakten/
+            {	"text" : "Was ist Informatik?" },
+            {	"text" : "Was ist Architektur?" },
+            {	"text" : "Was ist Elektrotechnik?" }
+          ]
+        },
+        { "id": 14,
+          "text": "Diese Institute gibt es an der Fakultät für Informatik",
+          "value": 50,
+          "wrongAnswers": [
+            {	"text" : "Was ist Verkehrswissenschaften?" },
+            {	"text" : "Was ist Computertechnik?" },
+            {	"text" : "Was ist Mikroelektronik?" }
+          ],
+          "rightAnswers": [ 
+            {	"text" : "Was ist Gestaltuns- und Wirkungsforschung?" },
+            {	"text" : "Was ist Softwaretechnik und Interaktive Systeme?" }
+          ]
+        }
+      ]
+    },
+    { "name": "Semistrukturierte Daten",
+      "questions": [
+        { "id": 15,
+          "text": "XML",
+          "value": 10,
+          "wrongAnswers": [
+            {	"text" : "Was ist eine Programmiersprache?" },
+            {	"text" : "Was ist ein Netzwerkprotokoll?" },
+            {	"text" : "Was ist eine Datenbank?" }
+          ],
+          "rightAnswers": [ 
+            {	"text" : "Was ist eine Auszeichnungssprache?" }
+          ]
+        },
+		{ "id": 16,
+		  "text": "Diese bekannten Parser gibt es für XML.",
+		  "value": 10,
+		  "wrongAnswers": [
+		    { "text" : "Was ist MGF?" },
+		    { "text" : "Was ist XMP?" }
+		  ],
+		  "rightAnswers": [
+		    { "text" : "Was ist SAX?" },
+		    { "text" : "Was ist DOM?" }
+		  ]
+		},
+		{ "id": 17,
+		  "text": "Diese Sprachen eignen sich zur Schemadefinition in XML.",
+		  "value": 20,
+		  "wrongAnswers": [
+		    { "text" : "Was ist XML Definition?" },
+		    { "text" : "Was ist DTD Schema?" }
+		  ],
+		  "rightAnswers": [
+		    { "text" : "Was ist XML Schema?" },
+		    { "text" : "Was ist Document Type Definition?" }
+		  ]
+		},
+        { "id": 18,
+          "text": "Diese Sprachen werden zum Abfragen von JSON verwendet",
+          "value": 20,
+          "wrongAnswers": [
+            {	"text" : "Was ist XSLT?" },
+            {	"text" : "Was ist JSON Find?" }
+          ],
+          "rightAnswers": [ 
+            {	"text" : "Was ist JSON Path?" },
+            {	"text" : "Was ist JSON Query?" }
+          ]
+        },
+        { "id": 19,
+          "text": "Diese Sprachen eignen sich um semistrukturierte Daten zu definieren",
+          "value": 30,
+          "wrongAnswers": [
+            {	"text" : "Was ist Schema?" }
+          ],
+          "rightAnswers": [ 
+            {	"text" : "Was ist XML?" },
+            {	"text" : "Was ist JSON?" },
+            {	"text" : "Was ist YAML?" }
+          ]
+        },
+        { "id": 20,
+          "text": "Diese Attributtypen gibt es bei DTDs.",
+          "value": 40,
+          "wrongAnswers": [
+            { "text" : "Was ist BDATA?" },
+            { "text" : "Was ist REFERENCE?" },
+            { "text" : "Was ist ELEMENT?" }
+          ],
+          "rightAnswers": [
+            { "text" : "Was ist CDATA?" },
+            { "text" : "Was ist ENTITY?" },
+            { "text" : "Was ist ID?" }
+          ]
+        },
+        { "id": 21,
+          "text": "Diese Sprachen werden zum Abfragen von XML verwendet",
+          "value": 50,
+          "wrongAnswers": [
+            {	"text" : "Was ist JAQL?" }
+          ],
+          "rightAnswers": [ 
+            {	"text" : "Was ist XPath?" },
+            {	"text" : "Was ist XQuery?" },
+            {	"text" : "Was ist XSLT?" }
+          ]
+        }
+     ]
+   },
+    { "name": "Internet Technologien",
+     "questions": [
+       { "id": 22,
+         "text": "Diese Versionen des Internet Protokolls sind heutzutage im Einsatz.",
+         "value": 10,
+         "wrongAnswers": [
+           { "text" : "Was ist IPv9?" },
+           { "text" : "Was ist IPv0?" }
+         ],
+         "rightAnswers": [
+           { "text" : "Was ist IPv4?" },
+           { "text" : "Was ist IPv6?" }
+         ]
+       },
+       { "id": 23,
+         "text": "Diese IPv4-Adressen gehören dem privaten Netzbereich an und werden im Internet nicht geroutet.",
+         "value": 20,
+         "wrongAnswers": [
+           { "text" : "Was ist 192.166.2.1?" },
+           { "text" : "Was ist 172.33.250.250?" },
+           { "text" : "Was ist 11.0.0.1?" }
+         ],
+         "rightAnswers": [
+           { "text" : "Was ist 192.168.252.3?" },
+           { "text" : "Was ist 10.0.0.1?" },
+           { "text" : "Was ist 172.31.255.1?" }
+         ]
+       },
+       { "id": 24,
+         "text": "Diese Protokolle befinden sich in der Transportschicht.",
+         "value": 30,
+         "wrongAnswers": [
+           { "text" : "Was ist IP?" },
+           { "text" : "Was ist PTPP?" },
+           { "text" : "Was ist DHCP?" },
+           { "text" : "Was ist NTP?" }
+         ],
+         "rightAnswers": [
+           { "text" : "Was ist TCP?" },
+           { "text" : "Was ist UDP?" }
+         ]
+       },
+       { "id": 25,
+         "text": "Diese Protokolle befinden sich in der Applikationsschicht.",
+         "value": 40,
+         "wrongAnswers": [
+           { "text" : "Was ist PTPP?" },
+           { "text" : "Was ist UDP?" },
+           { "text" : "Was ist IP?" }
+         ],
+         "rightAnswers": [
+           { "text" : "Was ist DNS?" },
+           { "text" : "Was ist FTP?" },
+           { "text" : "Was ist SOCKS?" },
+           { "text" : "Was ist HTTP?" },
+           { "text" : "Was ist SSH?" }
+         ]
+       },
+       { "id": 26,
+         "text": "Diese Protokolle befinden sich in der Internetschicht.",
+         "value": 40,
+         "wrongAnswers": [
+           { "text" : "Was ist UDP?" },
+           { "text" : "Was ist TCP?" },
+           { "text" : "Was ist FTP?" },
+           { "text" : "Was ist HTTP?" },
+           { "text" : "Was ist SSH?" }
+         ],
+         "rightAnswers": [
+           { "text" : "Was ist IP?" }
+         ]
+       },
+       { "id": 27,
+         "text": "Diese Protokolle befinden sich in der Netzzugangsschicht.",
+         "value": 50,
+         "wrongAnswers": [
+           { "text" : "Was ist SOCKS?" },
+           { "text" : "Was ist POP?" },
+           { "text" : "Was ist FTP?" },
+           { "text" : "Was ist IP?" }
+         ],
+         "rightAnswers": [
+           { "text" : "Was ist Ethernet?" },
+           { "text" : "Was ist Token Ring?" }
+         ]
+       },
+       { "id": 28,
+         "text": "Diese Schichten gibt es im TCP/IP-Referenzmodell.",
+         "value": 30,
+         "wrongAnswers": [
+           { "text" : "Was ist Sitzung?" },
+           { "text" : "Was ist Bitübertragung?" },
+           { "text" : "Was ist Darstellung?" },
+           { "text" : "Was ist Vermittlung?" }
+         ],
+         "rightAnswers": [
+           { "text" : "Was ist Anwendungen?" },
+           { "text" : "Was ist Internet?" },
+           { "text" : "Was ist Netzzugang?" },
+           { "text" : "Was ist Transport?" }
+         ]
+       }
+     ]
+   },
+   { "name": "Internet und -verwendung",
+     "questions": [
+       { "id": 29,
+         "text": "Diese Länder sind unter den Top 5 mit den meisten Internet-Usern.",
+         "value": 40,
+         "wrongAnswers": [
+           { "text" : "Was ist United Kingdom?" },
+           { "text" : "Was ist Russland?" },
+           { "text" : "Was ist Deutschland?" }
+         ],
+         "rightAnswers": [ // http://www.internetworldstats.com/top20.htm
+           { "text" : "Was ist USA?" },
+           { "text" : "Was ist Indien?" },
+           { "text" : "Was ist Japan?" }
+         ]
+       },
+       { "id": 30,
+         "text": "Das ist der Kontinent mit den meisten Internet-User in absoluten Zahlen.",
+         "value": 20,
+         "wrongAnswers": [
+           { "text" : "Was ist Europa?" },
+           { "text" : "Was ist Nord Amerika?" },
+           { "text" : "Was ist Afrika?" }
+         ],
+         "rightAnswers": [ // http://www.internetworldstats.com/stats.htm
+           { "text" : "Was ist Asien?" }
+         ]
+       },
+       { "id": 31,
+         "text": "Das ist das meist genutzte Social Network.",
+         "value": 10,
+         "wrongAnswers": [
+           { "text" : "Was ist Google+?" },
+           { "text" : "Was ist Twitter?" },
+           { "text" : "Was ist Instagramm?" },
+           { "text" : "Was ist Pinterest?" }
+         ],
+         "rightAnswers": [
+           { "text" : "Was ist Facebook?" }
+         ]
+       },
+       { "id": 32,
+         "text": "Youtube hat pro Monat ungefähr so viele Benutzer.",
+         "value": 30,
+         "wrongAnswers": [
+           { "text" : "Was hat über eine Million?" },
+           { "text" : "Was hat über zehn Millionen?" },
+           { "text" : "Was hat über hundert Millionen?" }
+         ],
+         "rightAnswers": [ // http://www.youtube.com/yt/press/statistics.html
+           { "text" : "Was hat über eine Milliarde?" }
+         ]
+       },
+       { "id": 33,
+         "text": "Unternehmen, die zu Facebook gehören.",
+         "value": 40,
+         "wrongAnswers": [
+           { "text" : "Was ist Pinterest?" },
+           { "text" : "Was ist Twitter?" }
+         ],
+         "rightAnswers": [
+           { "text" : "Was ist Instagramm?" },
+           { "text" : "Was ist WhatsApp?" }
+         ]
+       },
+       { "id": 34,
+         "text": "Diese Personen haben Google (mit-)begründet.",
+         "value": 50,
+         "wrongAnswers": [
+           { "text" : "Wer ist Eric Schmidt?" },
+           { "text" : "Wer ist Dustin Moskovitz?" },
+           { "text" : "Wer ist Andrew McCollum?" },
+           { "text" : "Wer ist Mark Zuckerberg?" }
+         ],
+         "rightAnswers": [
+           { "text" : "Wer ist Larry Page?" },
+           { "text" : "Wer ist Sergey Brin?" }
+         ]
+       },
+       { "id": 35,
+        "text": "Der Anteil an Haushalten in Österreich, die Breitband-Internetzugang haben.",
+        "value": 30,
+        "wrongAnswers": [
+          { "text" : "Was ist 50\% - 75\%?" },
+          { "text" : "Was ist 0\% - 50\%?" },
+          { "text" : "Was ist 85\%+?" }
+        ],
+        "rightAnswers": [ //http://www.statistik.at/web_en/statistics/information_society/ict_usage_in_households/041018.html
+          { "text" : "Was ist 75\% - 85\%?" }
+        ]
+      }
+     ]
+   }
+]
