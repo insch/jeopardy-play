@@ -15,4 +15,8 @@ public class Application extends Controller {
         return ok(registration.render());
     }
 
+    public static Result game() {
+        return ok(registration.render());
+    }
+
 }
