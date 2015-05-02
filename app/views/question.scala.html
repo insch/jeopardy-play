@@ -23,7 +23,7 @@
 		<nav role="navigation" aria-labelledby="navheading">
 			<h2 id="navheading" class="accessibility">Navigation</h2>
 			<ul>
-				<li><a class="orangelink navigationlink" id="logoutlink" title="Klicke hier um dich abzumelden" href="login.xhtml" accesskey="l">Abmelden</a></li>
+				<li><a class="orangelink navigationlink" id="logoutlink" title="Klicke hier um dich abzumelden" href="@routes.Application.logout()" accesskey="l">Abmelden</a></li>
 			</ul>
 		</nav>
       
@@ -65,7 +65,7 @@
             
       <!-- Question -->
       <section id="question" aria-labelledby="questionheading">
-            <form id="questionform" action="jeopardy.xhtml" method="get">
+            <form id="questionform" action="jeopardy.scala.html" method="get">
                <h2 id="questionheading" class="accessibility">Frage</h2>
                <p id="questiontype">TUWIEN für € 300</p>
                <p id="questiontext">Diese Lehrveranstaltungen bilden das Modul EWA.</p>

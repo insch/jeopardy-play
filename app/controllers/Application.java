@@ -19,4 +19,16 @@ public class Application extends Controller {
         return ok(registration.render());
     }
 
+    public static Result loadQuestions(){return ok();}
+
+    public static Result question() { return ok();}
+
+    public static Result login() {return ok(); }
+
+    public static Result logout() {return ok(); }
+
+    public static Result winner() {return ok(); }
+
+
+
 }
